@@ -1,28 +1,5 @@
+@import 'abstracts/variables';
+@import 'base/reset';
+@import 'components/button';
+@import 'layout/header';
 
-$fz:100px;
-$color_1:#000;
-$color_2:#fff;
-
-@mixin fontz($f){
-    font-size: $f;
-}
-
-.block {
-    padding: 30px;
-    font-size: $fz;
-    line-height: 60px;
-    span{
-        color: green;
-    }
-}
-.link{
-    color: $color_1;
-    text-decoration: underline;
-    &:hover{
-        color: green;
-    }
-}
-.link2{
-    @include fontz(100px);
-    border-bottom: 5px dashed #000;
-}
