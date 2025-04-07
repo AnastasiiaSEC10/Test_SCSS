@@ -1,0 +1,20 @@
+
+$fz:100px;
+$color_1:#000;
+$color_2:#fff;
+
+.block {
+    padding: 30px;
+    font-size: $fz;
+    line-height: 60px;
+    span{
+        color: green;
+    }
+}
+.link{
+    color: $color_1;
+    text-decoration: underline;
+    &:hover{
+        color: green;
+    }
+}
